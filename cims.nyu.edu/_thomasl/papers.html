@@ -32,11 +32,33 @@
     src="../../code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <script src="../../code.jquery.com/jquery.jslatex.packed.js"></script> <!-- package pour insérer latex-->
+
     <div id ="navbar">
     </div>
     <script>
       $("#navbar").load( "navbar.html" );
     </script>
+    <script>
+
+      $(function() {
+        $(".latex1").latex()
+        $(".latex2").latex({url: 'http://www.sitmo.com/gg/latex/latex2png.2.php?z=100&eq={e}'});  
+        $(".latex3").latex({
+          callback: function () {
+            this.css({border: '1px solid black'});
+          }
+        });
+        $(".latex4").latex({
+          url: 'http://www.sitmo.com/gg/latex/latex2png.2.php?z=100&eq={e}',
+          callback: function () {
+            this.css({border: '2px solid red'});
+          }
+        });
+
+      });
+    </script>
+
 
 
     <div class="card" style="margin-top: 2rem;">
@@ -52,6 +74,10 @@
             <div style="margin-top: 1rem;">
               <h5>Abstract</h5>
               bla bla bla maths maths maths <br />
+              <div class="latex1">
+                \int_{0}^{\pi}\frac{x^{4}\left(1-x\right)^{4}}{1+x^{2}}dx =\frac{22}{7}-\pi  
+              </div>
+            
             </div>
           </li>
         </ul>
