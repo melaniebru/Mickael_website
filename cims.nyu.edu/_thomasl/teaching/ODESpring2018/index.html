@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from cims.nyu.edu/~thomasl/teaching/ODESpring2018/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Sep 2018 18:03:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="author" content="Thomas Leblé">
+
+    <title>Ordinary differential equations - Spring 2018</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="../../../../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+
+<body>
+
+<div class="container">
+ <h3 class="card-header">Ordinary differential equations (Spring 2018)</h3>
+
+
+  <div class="card">
+    <h4 class="card-header">Course description</h4>
+    <div class="card-block">
+    <b>Lectures:</b> Tuesdays 11:00am-12:50am, in CIWW (Courant Institute) 1302.
+    <br />
+    <b>Office hours:</b> Monday 2-3pm and Thursday 5-6pm, WWH 926.
+    <br />
+    <b>Course description:</b> fundamentals of ODE (differential equations with one variable). General results for existence/uniqueness, how to find explicit solutions in the linear case and for many particular equations.
+    What to say of the solutions when they cannot be found exactly ("qualitative" study)? Are the solutions stable with respect to initial conditions? Then some more special cases where the general theory
+    meets concrete examples. Numerical methods and their convergence.<br />
+
+    A mixture of proofs and technical tricks will be presented in class and and the same will be expected in HW's and final exam.
+    <br />
+    <b>Prerequisites:</b> Real analysis and linear algebra.
+    <br />
+    <b>Textbook(s):</b> The book of G. Teschl <u>Ordinary Differential Equations
+and Dynamical Systems</u> is <a href="https://www.mat.univie.ac.at/~gerald/ftp/book-ode/index.html">available
+  freely as PDF file</a> and will be useful at least for the first half of the class.
+  <br />
+  The book <u>Ordinary differential equations</u> by Vladimir Arnold is recommended for further explorations of the topic.
+  The book <u>Differential Equations, Dynamical Systems, and an Introduction to Chaos</u> (Hirsch, Smale, Devaney) is also a good reference.
+</a>
+    <br />
+    <b>Grading:</b> 50% homework, 50% final exam. Homeworks are due on Tuesdays at noon (handed in class, sent by email, or placed in the physical mailbox in front of my office).
+    <br />
+  </div>
+</div>
+
+
+<div class="card">
+  <h5 class="card-header">About the final.</h5>
+<div class="card-block">
+  The final exam is scheduled on Tuesday, May 1st at the usual time and place. <br />
+  You can find <a href="forfinal.pdf">here</a> the syllabus, as well as instructions concerning the final.<br />
+  You can find <a href="forfinal.html">here</a> a list of possible references for the topics we have covered.<br />
+  Documents are allowed if they have been written/typed by you (so no books or printed lecture notes),
+  and within a reasonable limit.
+</div>
+</div>
+
+
+
+  <div class="card">
+    <h4 class="card-header">Syllabus</h4>
+    <div class="card-block">
+    <ol>
+      <li>  Jan 23: General introduction and motivation.</li> <a href="HW1.pdf">Homework 1, due Jan 30th.</a>
+      <li> Jan 30: Linear theory.</li> <a href="HW2.pdf">Homework 2, due Feb 6th.</a> (<b>The "Particular solutions" exercise can be omitted as we did not learn the corresponding tricks in class.</b>)
+      <li> Feb 6: End of linear theory. Cauchy-Lipschitz (linear case). </li> <a href="HW3.pdf">Homework 3, due Feb 13th.</a> (<b>Only treat the first page for the moment.</b> Instead of solving the exercises on the second page, you can read <a href="notesLecture3.pdf">this</a>.)
+      <li> Feb 13: Cauchy-Lipschitz, maximal solutions. Some particular non-linear equations.
+        <br /> <a href="HW4.pdf">Homework 4, due Feb 20th.</a>
+        <br />
+        <a href="notesmaximal.pdf">A note on maximal solutions</a>, I also recommend you to look at the textbook, Section 2.6 (in particular Lemma 2.14).
+      </li>
+      <li> Feb 20: Power series expansions, estimates on time of existence for maximal solutions, conserved quantities.
+        <br />
+        <a href="HW5.pdf">Homework 5, due Feb 27th.</a>
+      <br />
+      <a href="solutionsHW5.pdf">Some solutions.</a>
+    </li>
+      <li> Feb 27: Terminology of dynamical systems (stationary points, orbits, flows, phase portraits), example of Lotka-Volterra. </li> <a href="HW6.pdf">Homework 6, due March 6th.</a>
+      <li> Mar 6: Local behavior near a non-stationary point and near an hyperbolic stationary point (Hartman-Grobman theorem).</li>
+      <li> <del>Mar 13: Spring recess.</del></li>
+      <li> Mar 20: Numerics I. Convergence of the explicit Euler scheme and one-step methods. <br />
+        (Possible reference: J.C. Butcher <u>Numerical Methods for Ordinary Differential Equations)</u><br />
+      <a href="HW7.pdf">Homework 7, due March 27th.</a>
+    </li>
+      <li> Mar 27: Numerics II. Multi-steps and implicit methods, Runge-Kutta methods, local error. <br />
+        See <a href="http://www.math.usm.edu/lambers/mat461/spr10/lecture9.pdf">these notes</a> for a discussion of "stiffness" and stability regions.</li>
+      <li> Apr 3: Linear ODE's with periodic coefficients. Floquet Theory, Hill equation.<br />
+      <a href="HW8.pdf">Homework 8, due April 10</a> <br />
+      <a href="lectureFloquet.pdf">Lecture notes</a>
+      </li>
+      <li> Apr 10: End of Floquet's theory. Stability I <br />
+      <a href="lectureFloquet2.pdf">End of the lecture notes on Floquet's theory</a>
+      <br />
+      <a href="HW9.pdf">Homework 9, due April 17th</a>
+    </li>
+      <li> Apr 17: Stability II <br />
+      <a href="stability.pdf">Lecture notes</a></li>
+      <li> Apr 24: (Optimal) control of ODE's.<br />
+      References: <a href="https://www.ljll.math.upmc.fr/coron/Documents/Coron-book.pdf">J.M. Coron, Control and nonlinearities</a>,
+       <a href="https://math.berkeley.edu/~evans/control.course.pdf">L.C. Evans, Optimal control theory</a>
+       <br />
+      <li> May 1st: Final exam.
+        <a href="ODES2018_final.pdf">Exam</a> and <a href="solutions_final.pdf">solutions</a>.
+      </li>
+    </ol>
+  </div>
+</div>
+</div>
+</body>
+
+
+<!-- Mirrored from cims.nyu.edu/~thomasl/teaching/ODESpring2018/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Sep 2018 18:03:20 GMT -->
+</html>

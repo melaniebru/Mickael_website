@@ -1,0 +1,155 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm, graphicx, hyperref}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\pagestyle{fancy}
+\fancyhead[RO]{Fall 2016}
+\fancyhead[LO]{Calculus 3 (MATH-UA 123)}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem*{aside}{Aside}
+\newtheorem*{remark}{Remark}
+\newtheorem*{claim}{Claim}
+\newtheorem*{note}{Note}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+
+\begin{document}
+%~
+%
+%\vspace{0.1cm}
+\thispagestyle{empty}
+\begin{center}
+\textbf{\Large
+Math-UA.123.007: Calculus 3, Fall 2016 \\
+Syllabus}
+\end{center}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{tabular}{l l p{2cm} l l}
+\textbf{Instructor} & Thomas Lebl\'{e} 	& & \textbf{Lecture} & Tu Th 08:55am-10:45am\\
+\textbf{Email} & tl78@nyu.edu 	& & \textbf{Classroom} & 7E12 LL23\\
+\textbf{Office} & WWH 721 		& & \textbf{Course Page} & via NYU Classess\\
+\textbf{Office hours} & Tu 1:00-2:00pm, Th 5:00-6:00pm
+\end{tabular}
+
+\section*{Welcome to Calculus 3!}
+
+\section*{Goals of the course}
+
+The ultimate goal of this course is to generalize the concepts of single-variable calculus (Calculus 1 and 2) to apply to functions of two or three variables.  Topics include:
+\begin{itemize}
+\item Vectors and curves in space
+\item Functions of several variables, partial derivatives, gradients
+\item Multiple integrals, different coordinate systems
+\item Vector calculus, theorems of Stokes and Green
+\end{itemize}
+We want to leave the course not only with computational ability, but with the ability to use these notions in their natural scientific contexts, and with an appreciation of their mathematical beauty and power.
+
+\section*{Textbook and WebAssign Access}
+
+\textbf{Textbook}: James Stewart, \emph{Essential Calculus: Early Transcendentals, 2nd edition}.  
+
+\vspace{0.2cm}
+
+\noindent
+\textbf{You must purchase an access to WebAssign}, which is our \textbf{online homework} platform. 
+%It is accessible using your NYU NetID login as password through the following link (no ``access code'' required):
+%\begin{center}\url{https://www.webassign.net/nyu/login.html}\end{center}
+WebAssign access comes with an online/e-book version of the textbook.  You are not required to own a hardcopy of the textbook.
+
+\vspace{0.2cm}
+
+\noindent
+You will have free access to WebAssign and the e-book for the first 14 days of the semester.  If you decide to stay in this course, you must purchase either a semester-long access or a multi-semester access to WebAssign.  If you do not expect to take further calculus courses at NYU, buy a single-semester access.  Both versions can be purchased either at the bookstore.
+
+\section*{Assessments}
+
+%\begin{center}
+%\begin{tabular}{l c r}
+%Written Homework & ~ & 10\% \\
+%WebAssign Homework & ~ & 5\% \\
+%Quizzes & ~ & 10\% \\
+%In-Class Participation & ~ & 5\% \\
+%Midterms & ~ & 40\% \\
+%Final Exam & ~ & 30\%
+%\end{tabular}
+%\end{center}
+
+\subsubsection*{Written Homework (10\%)}
+
+\begin{itemize}
+\item Homeworks are \textbf{due at the beginning of class on Thursdays}.
+\item \textbf{No late homework} will be accepted.  \textbf{No emailed homework} will be accepted.
+\item The lowest homework score will be dropped.
+\end{itemize}
+
+\subsubsection*{WebAssign Homework (5\%)}
+
+\begin{itemize}
+\item Login at {\footnotesize \url{www.webassign.net/nyu/login.html}} using your NetID and password.
+\item WebAssign assignments are \textbf{generally due on Tuesdays at 11:59pm}.  There is one WebAssign assignment for each section from the textbook.  The lowest five WebAssign grades will be dropped.  Assigments labelled ``Lab'' (including chapter reviews) are not included in grade computation.
+\end{itemize}
+
+\subsubsection*{Quizzes (10\%) and Participation (5\%)}
+
+\begin{itemize}
+\item Quizzes will take place at the beginning of class, on \textbf{Tuesdays}.  The lowest quiz score will be dropped.
+\item Students are expected to attend class, work in class, share their results and respectfully critique each other's work, and to read relevant sections before coming to class.  
+
+The participation grade will be assigned based on regular attendance and presentation of one's work at least once during the semester.
+\end{itemize}
+
+\subsubsection*{Exams (70\%)}
+
+\begin{center}
+\begin{tabular}{l c l c l}
+Midterm 1 (20\%) & ~ & October  (in class) & ~ & Sections 10.1-11.4\\
+Midterm 2 (20\%) & ~ & November (in class) & ~ & Sections 11.5-12.8\\
+Final Exam (30\%) & ~ & December 22, 10am-11:50am (location TBA) & ~ & All (Sections 10.1-13.9)
+\end{tabular}
+\end{center}
+
+\section*{How to succeed in this course}
+
+\begin{itemize}
+\item \textbf{Get your hands dirty in class!}  Actively participate when we solve problems in class.  Passively listening to lectures and taking notes are generally not sufficient for learning deeply.
+
+\item \textbf{Spend time} on both WebAssign and written assignments.  Expect each written assignment to take 4-8 hours.  This is your opportunity to wrestle with and to internalize new ideas introduced in class.  When working on assignments, strive to really understand the deeper ideas behind the computations.
+
+\item \textbf{Prepare for quizzes}, for example, by practicing on textbook problems at the end of the sections.
+
+\item \textbf{Get help early}:
+\begin{itemize}
+\item \textbf{Attend instructor's office hours}.  Office hours schedule, course information, homework assignments, and grades will be posted in  the \textbf{NYU Classes} page for our section.
+\item \textbf{Piazza}: Use the course Piazza page to post questions and to respond to classmates' questions.  When you do, make sure to be courteous and respectful.  %You should be enrolled in the course Piazza page automatically (if not, let me know).
+\item \textbf{Form study groups}, but it's critical that you write up your own homework individually.
+\item \textbf{University Learning Center}: Free peer-tutoring/study help sessions offered by the university.  See: \url{http://www.nyu.edu/ulc}
+\item \textbf{Mathematics Tutoring Center}: Free peer-tutoring sessions offered by the math department to students in the calculus sequence.  It is located on the 5th floor of Warren Weaver Hall, Rooms 505 and 524.  For more information: {\footnotesize \url{http://math.nyu.edu/degree/undergrad/tutor_schedule.html}}.
+
+\end{itemize}
+\end{itemize}
+
+\section*{Course policies}
+There will be no accommodation for missed homework, quizzes, and exams, except in the cases of illness, observance of religious holidays, and extenuating circumstances.  In the case of observance of religious holidays, you must make arrangements to make up missed work \textbf{at least one week in advance}.  In the case of illness, you must present a detailed letter from a physician/health care provider.  Students with disabilities or requiring special accomodations must make individual arrangements with Moses Center.
+
+
+\section*{Honor Code}
+
+We value hard work and integrity, and do not tolerate academic dishonesty.  You are expected to uphold academic integrity as specified by the university and the College of Arts and Sciences.  See \url{http://cas.nyu.edu/page/academicintegrity}.  
+
+%You are encouraged to form study groups and to discuss homework problems with one another.  However, write-ups must be done individually.
+\end{document}
